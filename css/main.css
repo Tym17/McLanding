@@ -1,0 +1,51 @@
+body {
+  background-image: url('/img/sarah-brown-8uk33AyGB10-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+  right: 0;
+  top: 5%;
+  color: white;
+  position: absolute;
+  width: 40%;
+  padding: 17px;
+  height: 80%;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.elfic {
+  font-family: 'ubuntu', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: -10px;
+  color: rgb(185, 255, 200);
+  text-shadow: 1px 1px 20px rgb(96, 201, 119);
+}
+
+ol { counter-reset: item; }
+ol li { display: block; }
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: rgb(185, 255, 200);
+  text-shadow: 1px 1px 20px rgb(96, 201, 119);
+  margin-left: -20px;
+}
+
+.button {
+  text-decoration: underline;
+  color: rgb(24, 189, 60);
+}
+
+.button:hover {
+  cursor: pointer;
+}
